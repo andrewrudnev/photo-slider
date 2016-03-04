@@ -1,0 +1,41 @@
+.wrapper {
+	width: 720px;
+}
+
+#slider {
+	position: relative;
+	width: 1280px;
+	height: 720px;
+	overflow: hidden;
+	margin: 30px auto;
+	left: 25%;
+}
+
+#slider > img {
+	width: 1280px;
+	height: 720px;
+	display: none;
+	margin: auto;
+}
+
+#buttons {
+	width: 720px;
+	margin: auto;
+}
+
+a {
+	margin: 0 auto;
+	padding: 5px 10px;
+	background-color: #f0f0f0;
+	margin-top: 30px;
+	text-decoration: none;
+	color: #666;
+}
+
+a.left {
+	float: left;
+}
+
+a.right {
+	float: right;
+}
